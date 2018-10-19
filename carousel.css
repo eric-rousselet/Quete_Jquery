@@ -1,0 +1,65 @@
+body
+{
+	background-color:#464647;
+}
+
+#container
+{
+	width:100%;
+}
+
+#galerie
+{
+	position:relative;
+	background:black;
+	height:500px;
+	width:350px;
+	overflow:hidden;
+	margin:auto;
+}
+
+.suiv
+{
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:0;
+	height:500px;
+	width:25px;
+	background:url(img/rightArrow.jpg);
+}
+
+.suiv:hover
+{
+	background-position:52px top;
+}
+
+.prec
+{
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	left:0;
+	height:500px;
+	width:25px;
+	background:url(img/leftArrow.jpg);
+}
+
+.prec:hover
+{
+	background-position:-26px top;
+}
+
+.slider
+{
+	width:5000px;
+	top:0px;
+	padding-left:25px;
+	position:relative;
+}
+
+#galerie a
+{
+	display:block;
+	float:left;
+}
